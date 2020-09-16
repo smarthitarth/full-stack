@@ -1,0 +1,26 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smarthitarth/full-stack.git"
+  },
+  "author": "hitarth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smarthitarth/full-stack/issues"
+  },
+  "homepage": "https://github.com/smarthitarth/full-stack#readme",
+  "dependencies": {
+    "mongoose": "^5.10.5"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
